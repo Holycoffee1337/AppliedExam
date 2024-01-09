@@ -7,6 +7,14 @@ __pycache__/
 Problem1/Data/
 Problem2/Data/
 
+Problem2/saved_model/
+Problem2/wandb/
+
+# Problem2 Ignore all folders
+Problem2/*/
+
+
+
 
 # C extensions
 *.so
