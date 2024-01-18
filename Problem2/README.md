@@ -128,6 +128,72 @@ DataVisualizer.plot_common_words()
 DataVisualizer.plot_n_sentence_length()                                     
 DataVisualizer.plot_review_ratio()                                          
 ```
+```terminal
+Load all categories into class
+==============================
+Loaded: Magazine_Subscriptions
+Loaded: Clothing_Shoes_and_jewelry
+Loaded: Combined categories into one dataframe
+
+===========================
+Remove stop words from data
+===========================
+
+===============================
+Saving DataHandler Class
+File saved as: DATA_CLASS_SMALL
+===============================
+
+=================================================================================================
+Data Summary for DATA_CLASS: Saved as csv in path './RESULTS/SUMMARY/data_summary_DATA_CLASS.csv'
+=================================================================================================
+
+                  Category  Train Set Size  Validation Set Size  Combined Set Size                                      Train Distribution                         Validation Distribution
+    Magazine_Subscriptions            1900                  475               2375 {0: 81, 1: 95, 2: 190, 3: 300, 4: 1234}                 {0: 21, 1: 23, 2: 49, 3: 75, 4: 307}
+Clothing_Shoes_and_jewelry          382375                95594             477969 {0: 16427, 1: 17986, 2: 32366, 3: 69479, 4: 246117}     {0: 4116, 1: 4497, 2: 8092, 3: 17357, 4: 61532}
+                All_Beauty            4215                 1054               5269 {0: 91, 1: 51, 2: 88, 3: 266, 4: 3719}                  {0: 24, 1: 13, 2: 21, 3: 66, 4: 930}
+    Arts_Crafts_and_Sewing          395588                98897             494485 {0: 11491, 1: 10227, 2: 22894, 3: 48918, 4: 302058}     {0: 2867, 1: 2557, 2: 5734, 3: 12227, 4: 75512}
+            AMAZON_FASHION            2540                  636               3176 {0: 93, 1: 74, 2: 270, 3: 376, 4: 1727}                 {0: 24, 1: 19, 2: 67, 3: 95, 4: 431}
+
+Test Data Summary (Luxury_Beauty):
+ Size                                   Distribution
+34278 {1: 1095, 2: 1496, 3: 3884, 4: 7833, 5: 19970}
+
+=================================================================================================
+
+=========================================================================================================
+Data Summary for DATA_CLASS_UNI: Saved as csv in path './RESULTS/SUMMARY/data_summary_DATA_CLASS_UNI.csv'
+=========================================================================================================
+
+                  Category  Train Set Size  Validation Set Size  Combined Set Size                                     Train Distribution                         Validation Distribution
+    Magazine_Subscriptions             405                  405                810 {0: 81, 1: 81, 2: 81, 3: 81, 4: 81}                    {0: 19, 1: 18, 2: 44, 3: 64, 4: 260}
+Clothing_Shoes_and_jewelry           82135                82135             164270 {0: 16427, 1: 16427, 2: 16427, 3: 16427, 4: 16427}     {0: 3513, 1: 3858, 2: 6961, 3: 14909, 4: 52894}
+                All_Beauty             255                  255                510 {0: 51, 1: 51, 2: 51, 3: 51, 4: 51}                    {0: 5, 1: 4, 2: 8, 3: 14, 4: 224}
+    Arts_Crafts_and_Sewing           51135                51135             102270 {0: 10227, 1: 10227, 2: 10227, 3: 10227, 4: 10227}     {0: 1489, 1: 1303, 2: 2928, 3: 6437, 4: 38978}
+            AMAZON_FASHION             370                  370                740 {0: 74, 1: 74, 2: 74, 3: 74, 4: 74}                    {0: 13, 1: 12, 2: 45, 3: 58, 4: 242}
+
+Test Data Summary (Luxury_Beauty):
+ Size                                   Distribution
+34278 {1: 1095, 2: 1496, 3: 3884, 4: 7833, 5: 19970}
+
+=========================================================================================================
+
+=============================================================================================================
+Data Summary for DATA_CLASS_SMALL: Saved as csv in path './RESULTS/SUMMARY/data_summary_DATA_CLASS_SMALL.csv'
+=============================================================================================================
+
+                  Category  Train Set Size  Validation Set Size  Combined Set Size                                      Train Distribution                         Validation Distribution
+    Magazine_Subscriptions            1900                  475               2375 {0: 81, 1: 95, 2: 190, 3: 300, 4: 1234}                 {0: 21, 1: 23, 2: 49, 3: 75, 4: 307}
+Clothing_Shoes_and_jewelry          382375                95594             477969 {0: 16427, 1: 17986, 2: 32366, 3: 69479, 4: 246117}     {0: 4116, 1: 4497, 2: 8092, 3: 17357, 4: 61532}
+
+Test Data Summary (Luxury_Beauty):
+ Size                                   Distribution
+34278 {1: 1095, 2: 1496, 3: 3884, 4: 7833, 5: 19970}
+
+=============================================================================================================:w
+
+```
+
 
 
 
