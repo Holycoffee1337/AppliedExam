@@ -1,6 +1,16 @@
 # Problem 2: Text classification
 NOTE: get_Data_From_Local_Json() -> Keep adding. Delete files before hand
 
+# Table of Contents
+- [Problem 2: Text Classification](#problem-2-text-classification)
+  - [Links to Download](#links-to-download)
+  - [Data](#data)
+  - [Usage](#usage)
+  - [Visualize](#visualize)
+
+
+
+
 
 This project, provide code for text classification.
 
