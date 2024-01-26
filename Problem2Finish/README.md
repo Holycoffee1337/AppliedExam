@@ -36,10 +36,11 @@
 
 ## Installation
 
+
 Package                      Version
 ---------------------------- ------------
-absl-py                      2.0.0
-anyascii                     0.3.2
+- absl-py                      2.0.0
+- anyascii                     0.3.2
 appdirs                      1.4.4
 astunparse                   1.6.3
 beautifulsoup4               4.12.2
