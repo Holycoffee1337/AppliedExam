@@ -9,10 +9,8 @@
     - [Execution](#execution)
     - [Visualization](#visualization)
 5. [Files Description](#files-description)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
 
+   
 ## Introduction
 [Briefly describe your project: what it does, its purpose, and any relevant context or information.]
 
