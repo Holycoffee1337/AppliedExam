@@ -5,9 +5,6 @@ Group:
 - Chbra18 (Christoffer Brandenhoff) 
 - Marcs20 (Marcell Klitgaard Sørensen)
 
-Problems:
+Problems: (Each Problem have it's own README.md)
 - Problem 1
 - Problem 2
-
-
-- Each problem, have it's own README.md
