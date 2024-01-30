@@ -1,4 +1,4 @@
-# [Project Title]
+# PROBLEM 2
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -10,7 +10,8 @@
     - [Shallowlearning Models](#Shallowlearning)
     - [RNN: Grid Search Training](#RNN-RANDOMSEARCH)
 4. [Files Description](#files-description)
-5. [Installation](#installation)
+5. [Notes](#Notes)
+6. [Installation](#installation)
 
    
 ## Introduction
@@ -56,6 +57,10 @@ This project is about developing robust models for text classification on Amazon
 - `data_preprocessing.py`: Responsible for the initial processing and preparation of data.
 - `shallow_learning.py`: Manages the implementation of shallow learning algorithms.
 - `visualization.py`: Provides functions for visualizing data and model outputs.
+
+## NOTES
+- There is an error in the way datahandler handle the test data. It does not change the labels from 1-5, to 0-4. It therefore require, to do that action, when the test data is used to evalaute.
+- The DataClass and DataClassUni, which is used during the report, do not use the same size of json files. Due to, wanting the same size for both number of reviews in same classes. 
 
 ## Installation
 
