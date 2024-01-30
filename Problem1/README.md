@@ -5,8 +5,6 @@
 2. [Preconditions](#preconditions)
 3. [Usage](#usage)
 4. [Files Description](#files-description)
-5. [Notes](#Notes)
-6. [Installation](#installation)
 
 ## Introduction
 This primary objective of this problem, is to perform image classification on the PCam dataset, with a focus on using autoencoders for image compression. Link to PCAM "https://syddanskuni-my.sharepoint.com/:f:/g/personal/cmd_sam_sdu_dk/EiWD2LmuxCJBp-_tfGK7aL8Bdt2cPsb6MCpVs1pOYUcXAw?email=cmd%40sam.sdu.dk&e=2Vx6tL" 
@@ -32,3 +30,8 @@ To CNN Resize
 model_cnn = TrainCNN()
 model_cnn.train(5)
 `
+
+## File Descriptions
+
+- data.py: File handsle the data processing
+- 
