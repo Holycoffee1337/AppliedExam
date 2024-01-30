@@ -8,7 +8,7 @@
     - [Execution](#execution)
     - [Visualization](#visualization)
     - [Shallowlearning Models](#Shallowlearning)
-    - [RNN: Grid Search Training](#RNN-RANDOMSEARCH)
+    - [RNN](#RNN-RANDOMSEARCH)
 4. [Files Description](#files-description)
 5. [Notes](#Notes)
 6. [Installation](#installation)
@@ -52,7 +52,10 @@ This project is about developing robust models for text classification on Amazon
 #### Ensemble Learning
 - Use `ensemble_predictions_majority_priortize_SVM(DataClass, list[Of Models])` to execute ensemble prediction for given shallow learning models. SVM need to be given, as it will be used, as a tie breaker. If tie, SVM models prediction will be used.
 
-### RNN: Grid Search Training
+### RNN
+- RNN model, is defined in modelClass.py, as a class. To initialize class, the datahandler, from data_preprocessing.py is required. 
+
+#### Random Search
 - use `run_best_wandb_mode(DataClass)` to train the Hyperparameter Search, for the given sweep config (in Main file).
 
 #### Run best RNN model
