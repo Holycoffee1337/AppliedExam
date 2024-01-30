@@ -15,7 +15,15 @@
 
    
 ## Introduction
-This project is about developing robust models for text classification on Amazon Review Data. The data can be found at "https://nijianmo.github.io/amazon/index.html".
+This project is about developing robust models for text classification on Amazon Review Data. The data can be found at "https://nijianmo.github.io/amazon/index.html". To replicate the approach that was taking doing the report, the json files for these categories are required:
+    - Magazine_Subscriptions 
+    - Clothing_Shoes_and_jewelry 
+    - All_Beauty
+    - Arts_Crafts_and_Sewing 
+    - AMAZON_FASHION
+    - Luxury_Beauty (Test data)
+ 
+
 
 ## Preconditions
 - Ensure that the necessary JSON files for the given categories are available as they are required to perform any operations in the project.
