@@ -7,25 +7,48 @@
     - [Data Preparation](#data-preparation)
     - [Execution](#execution)
     - [Visualization](#visualization)
+    - [Shallowlearning Models](#Shallowlearning)
+    - [RNN: Grid Search Training](#RNN-RANDOMSEARCH)
 4. [Files Description](#files-description)
 5. [Installation](#installation)
 
    
 ## Introduction
-[Briefly describe your project: what it does, its purpose, and any relevant context or information.]
+This project is about developing robust models for text classification on Amazon Review Data. The data can be found at "https://nijianmo.github.io/amazon/index.html".
 
 ## Preconditions
 - Ensure that the necessary JSON files for the given categories are available as they are required to perform any operations in the project.
 
 ## Usage
 ### Data Preparation
-- Execute `create_and_save_data_classes(CATEGORIES)` using `main.py` to generate the data classes used in the project.
+- Execute `create_and_save_data_classes(CATEGORIES)` using `main.py` to generate the data classes used in the project. 
 
 ### Execution
 - Run the `main.py` file to execute the entire workflow of the project.
 
 ### Visualization
-- Use `save_all_plot()` to save all the plots used in the project.
+- Use `save_all_plot()` to save all the plots used in the project. To visualize the data.
+      - Plot: The distribtuion of number of words in each review
+      - Plot: The ratio of the reviews
+      - Plot: Top 10 common words in the dataset
+      - Plot: Average numbers of words for 5 categories
+  
+### Shalowlearning Models
+- Use `execute_all_shallow_models` to train and save all shallow learning models for dataset
+      - SVM
+      - Boosting
+      - Decision Tree
+      - Random Forest
+  
+#### Ensemble Learning
+- Use `ensemble_predictions_majority_priortize_SVM(DataClass, list[Of Models])` to execute ensemble prediction for given shallow learning models. SVM need to be given, as it will be used, as a tie breaker. If tie, SVM models prediction will be used.
+
+### RNN: Grid Search Training
+- use `run_best_wandb_mode(DataClass)` to train the Hyperparameter Search, for the given sweep config (in Main file).
+
+#### Run best RNN model
+- use `wandb_save_model():` Initialize the best model found at wandb (online).
+- use `wandb_load_model():` To load the model 
 
 ## Files Description
 - `main.py`: The entry point for the project. It coordinates data preprocessing, model operations, and visualization.
