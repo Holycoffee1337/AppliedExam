@@ -51,7 +51,7 @@ class DataLoader():
         return train_dataset, validation_dataset, test_dataset
             
     def load_data(self):
-        ds1, ds2, ds3 = tfds.load('patch_camelyon', split=['train[:1%]', 'test[:5%]', 'validation[:5%]'],
+        ds1, ds2, ds3 = tfds.load('patch_camelyon', split=['train[:10%]', 'test[:5%]', 'validation[:5%]'],
                                   data_dir=self.path,
                                   download=False,
                                   shuffle_files=True)
