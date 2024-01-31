@@ -72,12 +72,6 @@ class DataHandler:
     def _mkdir_folder_setup(self):
         '''
         Created needed folder setup folder for user. 
-        
-            Precondition: Json files in ./Data/Locally/
-            To replicate data, reduce json files to 0.1gb for,
-                - Clothing_Shoes_and_jewelry_5
-                - Arts_Crafts_and_Sewing_5)
-            Done, to reduce workload for hardware.
         '''
 
         header = "Creating folder setup"
@@ -149,9 +143,9 @@ class DataHandler:
 
         for category in self.data_sets:
             train_data =  self.data_sets[category]['train']
-            val_data =  self.data_sets[category]['val'] # REMEMBER TO DELETE THIS -> ONLY FOR TEST
+            val_data =  self.data_sets[category]['val']
             self.data_sets[category]['train'] = equal_rating_groups(train_data)
-            # This is veyry stupid -> # self.data_sets[category]['val'] = equal_rating_groups(val_data)
+            
             if len(self.data_sets[category]['val']) > len(self.data_sets[category]['train']):
                 # Truncate the validation data
                 train_size = len(self.data_sets[category]['train'])
