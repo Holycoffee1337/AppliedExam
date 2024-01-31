@@ -300,12 +300,6 @@ if __name__ == "__main__":
     sweep_id = wandb.sweep(sweep_confi, project='TEST_3_FUN')
     wandb.agent(sweep_id, train_with_wandb, count=5)
 
-    ########## TEST ####
-    #wandb.init()
-    #model = modelClass.Build_Models(DataClassSmall, config=sweep_config)
-    #model.build_model()
-    #model.train()
-    #model.evaluate()
 
 
     # Print total time for execution 
