@@ -35,7 +35,7 @@ from shallow_learning import SVM, DT, Boosting, RF, Boosting_evaluate, SVM_evalu
 from shallow_learning import ensemble_predictions, RF_evaluate, ensemble_predictions_majority, ensemble_predictions_majority_prioritize_SVM_EVALUATE
 
 ##### Initialize wandb #####
-os.environ["WANDB_API_KEY"] = '76fdf9acb6a4a334b5b8c8f89c8a63c1c2b5135e'
+os.environ["WANDB_API_KEY"] = ''
 project_name = 'HELLO2' 
 entity = 'marcs20'             
 wandb.login()
