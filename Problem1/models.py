@@ -7,7 +7,7 @@ import numpy as np
 import wandb
 from wandb.keras import WandbCallback
 import os
-os.environ["WANDB_API_KEY"] = "cdd71ae76c07e41586c6cbf5b1c72c12200201e4"
+os.environ["WANDB_API_KEY"] = ""
 
 class VAE(tf.keras.Model):
     def __init__(self, latent_dim,dropout_rate = 0):
